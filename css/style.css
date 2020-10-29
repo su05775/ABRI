@@ -320,19 +320,30 @@ header .intro-text {
 /* Footer Section*/
 #footer {
 	background: #f6f6f6;
-	padding: 15px 0;
+	padding-top: 15px;
+	padding-bottom: 25px;
 	margin-top: 20px;
 }
 #footer p {
+	padding-top: 20px;
 	color: #888;
 	font-size: 14px;
 }
 #footer a {
 	color: #608dfd;
 }
-#footer a:hover {
-	border-bottom: 2px solid #608dfd;
+/* index end */
+
+/* dresser start */
+.header {
+	height: 400px;
+	background: url("../images/banner_3.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+
+
 
 @media (max-width:1220px) {
 	#section03 {
