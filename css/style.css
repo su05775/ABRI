@@ -334,13 +334,108 @@ header .intro-text {
 }
 /* index end */
 
-/* dresser start */
-.header {
+/* banner */
+.banner {
 	height: 400px;
-	background: url("../images/banner_3.jpg");
+	background: url("../images/banner_2.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+.banner-text {
+	text-align: center;
+	position: relative;
+	top: 190px;
+	color: #fff;
+}
+.banner-text h1 {
+	font-size: 60px;
+	font-family: 'S-CoreDream-2ExtraLight';
+	text-shadow: #000;
+}
+
+/* abri start */
+.abri-section01 {
+	width: 100%;
+}
+
+.abri-sec01-main {
+	border-left: 3px solid #555;
+}
+.abri-sec01-main h1 {
+	margin: 50px 0 50px 15px;
+	color: #444;
+	font-family: 'S-CoreDream-4Regular';
+}
+.abri-sec01-1 {
+	padding: 0;
+	display: flex;
+}
+.abri-sec01-2 {
+	padding: 0;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.abri-sec01-img-1, .abri-sec01-img-2  {
+	padding: 0;
+}
+.abri-sec01-text-1 {
+	position: relative;
+	top: 150px;
+}
+.abri-sec01-text-2 {
+	position: relative;
+	top: 150px;
+}
+/* abri html end */
+
+/* dresser start */
+.dresser-section01 {
+	width: 100%;
+}
+.dresser-sec01-main {
+	border-bottom: 2px solid #787878;
+	margin-bottom:  10px;
+}
+.dresser-sec01-main h1 {
+	margin: 50px 0 5px 0;
+	color: #666;
+	font-family: 'S-CoreDream-4Regular';
+	font-size: 32px;
+}
+.dresser_box {
+	width: 100%;
+	padding: 30px 0 0 0;
+}
+.dresser {
+	padding: 0;
+	width: 24%;
+	height: 310px;
+	margin: 0.5%;
+	border: 1px solid #ddd;
+}
+.dresser > img {
+	padding: 0;
+	width: 100%;
+}
+.dresser h4 {
+	font-size: 16px;
+}
+.color {
+	padding-top: 10px;
+	display: flex;
+}
+.color_1 {
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border: 0.5px solid #ccc;
+}
+.color_2 {
+	width: 20px;
+	height: 20px;
+	background: #d9cdb5;
+	border: 0.5px solid #ccc;
 }
 
 
