@@ -472,6 +472,22 @@ header .intro-text {
 }
 
 @media (max-width: 768px) {
-	
+	.dresser-section01 {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.dresser_box {
+		width: 100%;
+	}
+	.dresser {
+		flex-direction: column;
+		width: 90%;
+		margin: 0 auto;
+		height: 390px;
+		margin-bottom: 5%;
+	}
+	.dresser>img {
+		width: 100%;
+	}
 
 }
