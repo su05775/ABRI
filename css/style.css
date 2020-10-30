@@ -239,6 +239,7 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
 	width: 100%;
+	margin-bottom: 3%;
 }
 .portfolio-item {
 	margin:  0;
@@ -288,6 +289,10 @@ header .intro-text {
 /* new end */
 
 #section03 {
+	width: 100%;
+	background: #eee;
+}
+.sec03 {
 	width: 65%;
 	margin: 0 auto;
 }
@@ -322,7 +327,6 @@ header .intro-text {
 	background: #f6f6f6;
 	padding-top: 15px;
 	padding-bottom: 25px;
-	margin-top: 20px;
 }
 #footer p {
 	padding-top: 20px;
@@ -430,13 +434,37 @@ header .intro-text {
 	height: 20px;
 	background: #fff;
 	border: 0.5px solid #ccc;
+	margin-right: 3px;
 }
 .color_2 {
 	width: 20px;
 	height: 20px;
 	background: #d9cdb5;
 	border: 0.5px solid #ccc;
+	margin-right: 3px;
 }
+.color_3 {
+	width: 20px;
+	height: 20px;
+	background: #c4bfc4;
+	border: 0.5px solid #ccc;
+	margin-right: 3px;
+}
+.color_4 {
+	width: 20px;
+	height: 20px;
+	background: #768da1;
+	border: 0.5px solid #ccc;
+	margin-right: 3px;
+}
+.color_5 {
+	width: 20px;
+	height: 20px;
+	background: #bbb;
+	border: 0.5px solid #ccc;
+	margin-right: 3px;
+}
+
 
 
 
