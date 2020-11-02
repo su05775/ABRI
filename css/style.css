@@ -50,8 +50,8 @@ p.intro {
 	line-height: 24px;
 }
 a {
-	color: #608dfd;
 	font-weight: 400;
+	text-decoration: none;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -399,7 +399,7 @@ header .intro-text {
 }
 .dresser-sec01-main {
 	border-bottom: 2px solid #787878;
-	margin-bottom:  20px;
+	margin-bottom: 20px;
 	width: 1160px;
 }
 .dresser-sec01-main h1 {
@@ -413,10 +413,18 @@ header .intro-text {
 	margin: 0 auto;
 	padding: 0;
 }
+.icon>img {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 2%;
+	bottom: 29%;
+}
 .dresser {
 	width: 32%;
 	padding: 0;
 	margin-right: 15.62px;
+	margin-top: 10px;
 }
 .dresser > img {
 	margin: 0;
@@ -425,9 +433,13 @@ header .intro-text {
 }
 .dresser h4 {
 	font-size: 16px;
+	padding-top: 5px;
+}
+.dresser p {
+	color: #777;
 }
 .color {
-	padding-top: 10px;
+	padding-top: 20px;
 	display: flex;
 }
 .color_1 {
@@ -466,7 +478,155 @@ header .intro-text {
 	margin-right: 3px;
 }
 
+.popup {
+    display: none;
+    position: fixed;
+    top: 100px;
+    left: 500px;
+	background: rgba(0,0,0,0.6);
+}
+.popup:active {
+    display: block;
+    opacity: 1;
+}
 
+.popup_body {
+    width: 800px;
+	height: 700px;
+    background: white;
+	border: 1px solid #333;
+}
+
+.popup_top {
+	text-align: right;
+	background: #444;
+	padding: 0;
+	height: 6%;
+}
+.popup_top p {
+	position: absolute;
+	color: #fff;
+	top: 10px;
+	left: 20px;
+	font-size: 16px;
+}
+
+.popup_bottom {
+    text-align: center;
+}
+
+.팝업닫기 {
+	color: #fff;
+	border: none;
+	width: 10%;
+	padding: 0;
+    font-size: 18px;
+	cursor: pointer;
+	margin: 10px 0 0 0px;
+	border-radius: 50px;
+	background: none;
+}
+.popup-sec {
+	padding: 0;
+	width: 800px;
+}
+.pop {
+	padding: 0;
+	width: 800px;
+}
+.popup-img {
+	margin-top: 15px;
+}
+.popup-img img {
+	width: 100%;
+}
+.popup-text {
+	text-align: left;
+	padding-top: 10px;
+}
+.clear {
+	width: 100%;
+	height: 1px;
+	background: #ccc;
+}
+.popup-text h4 {
+	font-size: 16px;
+	text-align: center;
+	color: #222;
+	padding-top: 10px;
+}
+.product-text {
+	padding-top: 20px;
+}
+.product-text > div > p {
+	margin-top: 10px;
+	font-weight: 700;
+}                                                                                            
+.product-text h5 {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.product-text-2 > div > p {
+	margin-top: 10px;
+	text-decoration: line-through;
+}                                                                                            
+.product-text-2 h5 {
+	font-size: 16px;
+}
+
+.product-text-3 > div > p {
+	margin-top: 10px;
+	color: #5ca9fb;
+}                                                                                            
+.product-text-3 h5 {
+	font-size: 16px;
+	color: #5ca9fb;
+}
+
+.product-text-4 > div > a > img {
+	margin-top: 7px;
+}                                                                                            
+.product-text-4 h5 {
+	font-size: 14px;
+}
+
+.product-text-5 > div > select {
+	margin-top: 10px;
+	padding: 2px 35px 0px 5px;
+}                                                                                            
+.product-text-5 h5 {
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+.product-text-6 > div > select {
+	margin-top: 10px;
+	padding: 2px 50px 0px 5px;
+}                                                                                            
+.product-text-6 h5 {
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+.product-text-6 > div > select {
+	margin-top: 10px;
+	padding: 2px 50px 0px 5px;
+}                                                                                            
+.product-text-6 h5 {
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+.product-text-7 p {
+	font-size: 13px;
+	margin-top: 5px;
+	margin-left: 2px;
+}
+
+.product-text-8 {
+	text-align:center;
+}
 
 
 @media (max-width:1220px) {
