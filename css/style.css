@@ -361,6 +361,7 @@ header .intro-text {
 /* abri start */
 .abri-section01 {
 	width: 100%;
+	font-family: 'S-CoreDream-4Regular';
 }
 
 .abri-sec01-main {
@@ -385,7 +386,21 @@ header .intro-text {
 }
 .abri-sec01-text-1 {
 	position: relative;
-	top: 150px;
+	top: 80px;
+	left: 18%;
+}
+.abri-sec01-text-1 p {
+	font-size: 16px;
+	color: #777;
+}
+.abri-sec01-text-1 h3 {
+	font-size: 40px;
+	color: #333;
+}
+.abri-sec01-text-1 h1 {
+	font-size: 55px;
+	font-weight: bold;
+	color: #555;
 }
 .abri-sec01-text-2 {
 	position: relative;
@@ -772,11 +787,12 @@ header .intro-text {
 		overflow-y: auto;
 		overflow-x: hidden;
 		background: #fff;
+		border: 1px solid #222;
 	}
 	.popup_top {
 		position: fixed;
 		z-index: 99;
-		width: 88%;
+		width: 89.5%;
 		height: 35px;
 	}
 	.popup_bottom {
